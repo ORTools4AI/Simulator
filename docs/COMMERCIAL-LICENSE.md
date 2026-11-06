@@ -6,9 +6,16 @@
 
 The licensor and customer are the legal entities or individuals named in the order form. The **Modified Edition** is the specific ORTools4AI.Simulator release identified there. These terms and the signed order form constitute the agreement. The order form controls the release, permitted uses, term, and fees. Any other change to these terms must identify the section it modifies and be signed by both parties.
 
+The **Covered Contributions** are the portions of the C# source that the licensor owns or is authorized to license commercially in the following directories of the Modified Edition, including their compiled forms:
+
+- `src/ORTools4AI.Simulator/core/ai/`
+- `src/ORTools4AI.Simulator/extensions/` and its subdirectories
+
+Where a file combines licensor contributions and third-party material, the commercial grant covers the licensor-controlled portions. Section 3 governs third-party material and existing license rights, including in those directories.
+
 ## 2. Commercial grant
 
-Subject to the order form and payment of the agreed fees, the licensor grants the customer a nonexclusive, nontransferable license for the agreed term to install, run, and make reasonable copies of the Modified Edition for the customer's internal business operations. The customer may permit its employees and contractors to exercise those rights on its behalf, subject to the same terms. The customer is responsible for their compliance.
+Subject to the order form and payment of the agreed fees, the licensor grants the customer a nonexclusive, nontransferable license for the agreed term to install, run, and make reasonable copies of the Covered Contributions as part of the Modified Edition for the customer's internal business operations. The customer may permit its employees and contractors to exercise those rights on its behalf, subject to the same terms. The customer is responsible for their compliance.
 
 Internal business use includes internal research, evaluation, development, testing, and production. Client-facing consulting, operation of a hosted service for third parties, embedding the Modified Edition in a product distributed to third parties, redistribution, and sublicensing require express authorization in the order form. The order form may specify which of those rights are included and any applicable deployment limits.
 
@@ -16,7 +23,7 @@ The customer may use and share simulation results and reports it creates. Sharin
 
 ## 3. Upstream and third-party components
 
-This agreement governs the commercial rights the licensor grants in the Modified Edition. DESMO-J-derived material covered by Apache 2.0 and other third-party components remain available under their applicable licenses. This agreement does not restrict rights a recipient receives under those licenses. The Apache 2.0 text and applicable attribution notices accompany the release. Any authorized redistribution must retain the notices required by the applicable licenses.
+DESMO-J-derived material covered by Apache 2.0 and other third-party components remain available under their applicable licenses. This agreement does not restrict rights a recipient already has under Apache 2.0 or another applicable license, including rights in material distributed under Apache 2.0 within the listed directories. The Apache 2.0 text and applicable attribution notices accompany the release. Any authorized redistribution must retain the notices required by the applicable licenses.
 
 ## 4. Fees, updates, and support
 
@@ -47,6 +54,7 @@ Complete all applicable fields before signing. For optional rights or services, 
 | Customer legal name and address | |
 | Customer notice email | |
 | Covered release version and commit or package identifier | |
+| Covered Contributions | Section 1 scope for the release above. List any agreed narrower scope or file-specific exclusions here. |
 | Additional authorized customer entities, if any | |
 | Deployment limits, if any | |
 | Additional rights, if any | Specify consulting, third-party hosting, embedding, redistribution, or sublicensing and the limits of each grant. |

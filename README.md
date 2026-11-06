@@ -18,3 +18,5 @@ The solution contains the simulation library, the C# bridge for Python integrati
 The DESMO-J project and its contributors developed the original Java framework. ORTools4AI.Simulator packages the C# port, Python bridge, and simulator extensions in a standalone solution with updated namespaces and C# documentation.
 
 See [NOTICE](NOTICE) for source provenance and [LICENSE](LICENSE) for the Apache 2.0 terms covering the DESMO-J-derived code. File headers retain upstream credits where applicable.
+
+See [Licensing](LICENSING.md) for the proposed PolyForm Noncommercial release terms and the separate commercial agreement.
