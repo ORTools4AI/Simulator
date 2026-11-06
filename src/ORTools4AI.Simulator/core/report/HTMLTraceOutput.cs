@@ -1,0 +1,54 @@
+﻿// Derived from DESMO-J through a C# port.
+// SPDX-License-Identifier: Apache-2.0
+// @version DESMO-J, Ver. 2.4.1 copyright (c) 2014
+// @author Gunnar Kiesel
+// Modified for ORTools4AI.Simulator.
+
+namespace ORTools4AI.Simulator.core.report
+{
+
+    /**
+     * Use this class to create HTML formatted Simulation Trace Output.
+     */
+
+    public class HTMLTraceOutput : TraceFileOut, OutputType
+    {
+
+        /** Create a new HTMLTraceOutput class * */
+        public HTMLTraceOutput():base(1, HTML_TABLE_FORMATTER)
+        {
+            
+        }
+
+        /***************************************************************************
+         * Create a new HTMLTraceOutput class
+         * 
+         * @param simTimeFloatingDigits
+         *            int: The number of floating point digits of the simulation
+         *            time values to be displayed
+         **************************************************************************/
+        public HTMLTraceOutput(int simTimeFloatingDigits):base(simTimeFloatingDigits,
+            HTML_TABLE_FORMATTER)
+        {
+           
+        }
+
+        /***************************************************************************
+         * set the time of the current output
+         * 
+         * @param timeFloats
+         *            int: time of the curent output
+         **************************************************************************/
+        public void setTimeFloats(int timeFloats)
+        {
+            this.formatter.setTimePrecision(timeFloats);
+        }
+
+        /** returns the file appendix for this output type * */
+        public String getAppendix()
+        {
+            return ".html";
+        }
+
+    }
+}

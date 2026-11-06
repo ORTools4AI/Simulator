@@ -1,0 +1,16 @@
+﻿<!-- Modified for ORTools4AI.Simulator. -->
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>ORTools4AI.Simulator.Python</AssemblyName>
+    <RootNamespace>ORTools4AI.Simulator.Python</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ORTools4AI.Simulator\ORTools4AI.Simulator.csproj" />
+  </ItemGroup>
+
+</Project>

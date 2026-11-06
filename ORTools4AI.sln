@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DDF8F918-E62A-46AD-BF3E-5ECA2CAE7EFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ORTools4AI.Simulator", "src\ORTools4AI.Simulator\ORTools4AI.Simulator.csproj", "{E71E2B38-E7D3-461E-A04F-8A0ABB8DBF58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ORTools4AI.Simulator.Python", "src\ORTools4AI.Simulator.Python\ORTools4AI.Simulator.Python.csproj", "{63524193-8551-4ECE-AC4C-E0B2653B7591}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{5C2DAA42-39BD-46DB-9581-D2287EEE2137}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ORTools4AI.Simulator.Tests", "tests\ORTools4AI.Simulator.Tests\ORTools4AI.Simulator.Tests.csproj", "{63283336-275E-4F9C-8127-BA9173DFBDC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E71E2B38-E7D3-461E-A04F-8A0ABB8DBF58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E71E2B38-E7D3-461E-A04F-8A0ABB8DBF58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E71E2B38-E7D3-461E-A04F-8A0ABB8DBF58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E71E2B38-E7D3-461E-A04F-8A0ABB8DBF58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63524193-8551-4ECE-AC4C-E0B2653B7591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63524193-8551-4ECE-AC4C-E0B2653B7591}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63524193-8551-4ECE-AC4C-E0B2653B7591}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63524193-8551-4ECE-AC4C-E0B2653B7591}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63283336-275E-4F9C-8127-BA9173DFBDC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63283336-275E-4F9C-8127-BA9173DFBDC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63283336-275E-4F9C-8127-BA9173DFBDC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63283336-275E-4F9C-8127-BA9173DFBDC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E71E2B38-E7D3-461E-A04F-8A0ABB8DBF58} = {DDF8F918-E62A-46AD-BF3E-5ECA2CAE7EFF}
+		{63524193-8551-4ECE-AC4C-E0B2653B7591} = {DDF8F918-E62A-46AD-BF3E-5ECA2CAE7EFF}
+		{63283336-275E-4F9C-8127-BA9173DFBDC3} = {5C2DAA42-39BD-46DB-9581-D2287EEE2137}
+	EndGlobalSection
+EndGlobal

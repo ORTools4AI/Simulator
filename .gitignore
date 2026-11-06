@@ -1,0 +1,9 @@
+.vs/
+bin/
+obj/
+TestResults/
+*.user
+*.suo
+
+# Third-party research paper kept locally.
+/src/ORTools4AI.Simulator/extensions/supplychain/object oriented modeling and decision support for supply chains.pdf

@@ -1,0 +1,10 @@
+ORTools4AI.Simulator
+
+This project incorporates code derived from DESMO-J, a discrete-event
+simulation framework developed by the DESMO-J project and its contributors.
+DESMO-J is distributed under the Apache License, Version 2.0.
+https://desmoj.sourceforge.net/download.html
+
+The C# port includes notices identifying DESMO-J versions 2.4.1 and
+2.5.1e. Applicable version, copyright, and author credits are preserved
+in the source files.
