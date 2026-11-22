@@ -49,8 +49,8 @@ Complete all applicable fields before signing. For optional rights or services, 
 
 | Field | Agreed details |
 | --- | --- |
-| Licensor legal name and address | |
-| Licensor notice email | |
+| Licensor legal name and address | Legal name and address to be completed in the signed order form. |
+| Licensor notice email | tunglevn@gmail.com |
 | Customer legal name and address | |
 | Customer notice email | |
 | Covered release version and commit or package identifier | |

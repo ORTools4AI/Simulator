@@ -4,14 +4,20 @@ ORTools4AI.Simulator is a .NET 8 discrete-event simulation library based on a C#
 
 ## Build and test
 
-With the .NET 8 SDK installed, open `ORTools4AI.sln` in Visual Studio or run:
+With the .NET 8 SDK installed, pack the simulator once from the repository root. The sample project restores this preview from `bin/packages`.
+
+```sh
+dotnet pack src/ORTools4AI.Simulator -c Release -o bin/packages
+```
+
+Then open `ORTools4AI.sln` in Visual Studio or run:
 
 ```sh
 dotnet build ORTools4AI.sln
 dotnet test ORTools4AI.sln --no-build
 ```
 
-The solution contains the simulation library, the C# bridge for Python integration, and the .NET test suite.
+The solution contains the simulation library, the C# bridge for Python integration, the .NET test suite, and the NuGet smoke test under `samples`. Run the smoke test with `dotnet run --project samples/SimulatorPackageSmokeTest`.
 
 ## Origin and credits
 
@@ -19,4 +25,4 @@ The DESMO-J project and its contributors developed the original Java framework. 
 
 See [NOTICE](NOTICE) for source provenance and [LICENSE](LICENSE) for the Apache 2.0 terms covering the DESMO-J-derived code. File headers retain upstream credits where applicable.
 
-See [Licensing](LICENSING.md) for the proposed PolyForm Noncommercial release terms and the separate commercial agreement.
+See [Licensing](LICENSING.md) for the PolyForm Noncommercial release terms covering Tony Le's original contributions and the separate commercial agreement. Commercial inquiries may be sent to tunglevn@gmail.com.

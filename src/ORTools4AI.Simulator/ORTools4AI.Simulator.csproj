@@ -1,11 +1,27 @@
-﻿<!-- Modified for ORTools4AI.Simulator. -->
+<!-- Modified for ORTools4AI.Simulator. -->
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageId>ORTools4AI.Simulator</PackageId>
+    <PackageVersion Condition="'$(PackageVersion)' == ''">0.1.0-rc.3</PackageVersion>
+    <Authors>ORTools4AI</Authors>
+    <Description>A .NET 8 discrete-event simulation library for event- and process-oriented models, derived from DESMO-J.</Description>
+    <PackageTags>discrete-event-simulation;simulation;desmo-j</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>PACKAGE-LICENSE.md</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/ORTools4AI/Simulator</PackageProjectUrl>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>Initial .NET 8 release candidate with simulation scheduling, process modeling, AI contributions, and extensions. See PACKAGE-LICENSE.md for PolyForm and Apache 2.0 scope.</PackageReleaseNotes>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../../docs/NUGET-README.md" Pack="true" PackagePath="README.md" />
+    <None Include="../../docs/NUGET-LICENSE.md" Pack="true" PackagePath="PACKAGE-LICENSE.md" />
+    <None Include="../../LICENSE;../../NOTICE;../../LICENSE-POLYFORM-NONCOMMERCIAL.txt" Pack="true" PackagePath="" />
+  </ItemGroup>
 
   <ItemGroup>
     <Compile Remove="core\engine\ExpProgressBar.cs" />
